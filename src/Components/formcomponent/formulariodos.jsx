@@ -19,7 +19,6 @@ const ContactUstwo = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-    <div> sffsadfsafsafsaf </div>
     <div>
       <label>Nombre</label>
       <input type="text" placeholder="Ingresa tu nombre y apellido" name="user_name" />
