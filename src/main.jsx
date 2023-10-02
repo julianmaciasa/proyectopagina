@@ -7,5 +7,6 @@ import { App } from './Components/maincomponents/App.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App/>
-  </React.StrictMode>
+    {/* <ContactUstwo/>   */}
+      </React.StrictMode>
 )
