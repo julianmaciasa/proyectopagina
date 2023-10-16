@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const Inicio = () => {
   return (
     <div>
@@ -13,12 +11,8 @@ const Inicio = () => {
       <div>
         <img src="Galeria" alt="Galería de imágenes" />
       </div>
-      
-    </div>
 
-  
-    
-    
+    </div>
   )
 }
 
