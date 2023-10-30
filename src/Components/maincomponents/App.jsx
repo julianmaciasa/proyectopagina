@@ -12,6 +12,9 @@ import './../../Stylesheets/App.css'
 //   "resolved": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz",
 //   "integrity": "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww=="
 // },
+// "dependencies": {
+//   "boolbase": "^1.0.0"
+// },
 
 export function App() {
   return <div className="App">
