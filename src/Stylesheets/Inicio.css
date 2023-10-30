@@ -1,0 +1,22 @@
+
+.boxsigla {
+    width: 100%;
+    justify-content: center;
+    align-content: end;
+    height: 150px;
+    font-size: large;
+    background-color: rgb(111, 126, 146)
+    
+    
+    ;
+}
+
+.boxnombre {
+    width: lg;
+    height: 50px;
+    background: rgb(144, 112, 131);
+    font-size: large;
+    background-color: rgb(49, 193, 237)
+    ;
+    
+}

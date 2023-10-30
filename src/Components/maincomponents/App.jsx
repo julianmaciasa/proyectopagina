@@ -1,15 +1,14 @@
-import React, { useState } from "react";
-//import "./App.css";
+//import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import NavbarAlt from "../maincomponents/NavbarAlt";
+import NavbarAlt from './../maincomponents/NavbarAlt.jsx'
 import Inicio from "../pages/Inicio.jsx";
 import Tarifas from "../pages/Tarifas.jsx";
 import Servicios from "../pages/Servicios.jsx";
 import ContactUstwo from "../pages/Contactenos";
+import './../../Stylesheets/App.css'
 
 export function App() {
-  return (
-    <div className="App">
+  return <div className="App">
      
       <Router>
         <NavbarAlt/>
@@ -21,9 +20,8 @@ export function App() {
         </Routes>
       </Router>
 
-      
     </div>
-  );
+  ;
 }
 
 
