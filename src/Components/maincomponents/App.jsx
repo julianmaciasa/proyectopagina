@@ -6,6 +6,7 @@ import Tarifas from "../pages/Tarifas.jsx";
 import Servicios from "../pages/Servicios.jsx";
 import ContactUstwo from "../pages/Contactenos";
 import './../../Stylesheets/App.css'
+//"boolbase": "^1.0.0"
 
 export function App() {
   return <div className="App">
