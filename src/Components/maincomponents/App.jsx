@@ -6,6 +6,7 @@ import Inicio from "../pages/Inicio.jsx";
 import Tarifas from "../pages/Tarifas.jsx";
 import Servicios from "../pages/Servicios.jsx";
 import ContactUstwo from "../pages/Contactenos";
+import Footer from "./Footer";
 
 export function App() {
   return (
@@ -19,6 +20,7 @@ export function App() {
           <Route path='/contactenos' element={<ContactUstwo/>}/>
           <Route path='/tarifas' element={<Tarifas/>}/> 
         </Routes>
+        <Footer/>
       </Router>
 
       
