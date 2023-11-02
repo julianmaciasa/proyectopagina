@@ -6,6 +6,7 @@ import Tarifas from "../pages/Tarifas.jsx";
 import Servicios from "../pages/Servicios.jsx";
 import ContactUstwo from "../pages/Contactenos";
 import './../../Stylesheets/App.css'
+import Footer from './Footer.jsx';
 //"boolbase": "^1.0.0"
 // "node_modules/boolbase": {
 //   "version": "1.0.0",
@@ -27,10 +28,11 @@ export function App() {
           <Route path='/contactenos' element={<ContactUstwo/>}/>
           <Route path='/tarifas' element={<Tarifas/>}/> 
         </Routes>
+        <Footer/>
       </Router>
 
     </div>
-  ;
+      ;
 }
 
 
